@@ -1,0 +1,310 @@
+<div class='landing-page'>
+  <nav class="navbar navbar-transparent navbar-absolute">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">School Diary</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navigation-example">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/login">
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <!-- <div class="header header-filter" style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');"> -->
+    <div class="header header-filter" style="background-image: url('images/landing-image.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="title text-black">ERP without hassels.</h1>
+            <h4>An end to end solution for Schools, From Admission to Graduation we have every thing covered.</h4>
+            <br />
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger btn-raised btn-lg" target="_blank">
+              <i class="fa fa-play"></i> Watch video to find out more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main main-raised">
+      <div class="container">
+        <div class="section text-center section-landing">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="title">What you get ?</h2>
+              <h5 class="description">
+                Pick what fits your needs. <br />
+                SchoolDiary is organized into modules so that you choose what fits your requirements the best.
+              </h5>
+            </div>
+          </div>
+
+          <div class="features">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h4 class="title">Available Modules</h4>
+                <hr />
+                <h5 class="description">
+                  Pick and choose what suits your needs the best.
+                </h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-primary">
+                    <i class="material-icons">book</i>
+                  </div>
+                  <h4 class="info-title">Subjects</h4>
+                  <p>Unlimited Subjects can be added</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-success">
+                    <i class="material-icons">people</i>
+                  </div>
+                  <h4 class="info-title">Grades</h4>
+                  <p>A total of 10 Grades can be managed.</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-primary">
+                    <i class="material-icons">portrait</i>
+                  </div>
+                  <h4 class="info-title">Student Admissions</h4>
+                  <p>Ability to admission Students</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-success">
+                    <i class="material-icons">attach_money</i>
+                  </div>
+                  <h4 class="info-title">Track Fee</h4>
+                  <p>Manage monthly fee structure per Student.</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">supervisor_account</i>
+                  </div>
+                  <h4 class="info-title">Staff Admissions</h4>
+                  <p>Ability to admission Staffs and maintain pay roles</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-success">
+                    <i class="material-icons">av_timer</i>
+                  </div>
+                  <h4 class="info-title">Timings</h4>
+                  <p>Ability to set school timings</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-warning">
+                    <i class="material-icons">format_size</i>
+                  </div>
+                  <h4 class="info-title">Timetables</h4>
+                  <p>A intuitive way to create timetable for grades</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">event</i>
+                  </div>
+                  <h4 class="info-title">Events</h4>
+                  <p>Event management per user and for the school</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-success">
+                    <i class="material-icons">format_paint</i>
+                  </div>
+                  <h4 class="info-title">Custom Themes</h4>
+                  <p>Can choose the right theme that sets your schools branding</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-primary">
+                    <i class="material-icons">speaker_phone</i>
+                  </div>
+                  <h4 class="info-title">Mobile Application</h4>
+                  <p>The Mobile application helps in a myriad functionalities for Staffs, Students and Parents.</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-warning">
+                    <i class="material-icons">event_seat</i>
+                  </div>
+                  <h4 class="info-title">Exams and Results</h4>
+                  <p>Create and track examinations and results.</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon">
+                    <i class="material-icons">computer</i>
+                  </div>
+                  <h4 class="info-title">Server Stats</h4>
+                  <p>A graphical monitor to check you server performance</p>
+                </div>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">chat</i>
+                  </div>
+                  <h4 class="info-title">Chat</h4>
+                  <p>Chat with Parents and other Staffs.</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-primary">
+                    <i class="material-icons">library_books</i>
+                  </div>
+                  <h4 class="info-title">Library</h4>
+                  <p>Manage books and lending.</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">O/</i>
+                  </div>
+                  <h4 class="info-title">Attendance</h4>
+                  <p>Manage Attendance</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="info">
+                  <div class="icon">
+                    <i class="material-icons">airport_shuttle</i>
+                  </div>
+                  <h4 class="info-title">Bus Tracker</h4>
+                  <p>Manage and track bus in real-time.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="section landing-section">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="text-center title">Interested?</h2>
+              <h4 class="text-center description">We would love to hear from you. Get in touch with us by filling in your details below. We usually reply within a couple of hours <i class="fa fa-smile-o"></i><h4>
+
+              <form class="contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group label-floating">
+                      <label class="control-label">Your Name</label>
+                      <input type="email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group label-floating">
+                      <label class="control-label">Your Email</label>
+                      <input type="email" class="form-control">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group label-floating">
+                  <label class="control-label">Your Messge</label>
+                  <textarea class="form-control" rows="4"></textarea>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-4 col-md-offset-4 text-center">
+                    <button class="btn btn-primary btn-raised">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="pull-left">
+          <ul>
+            <li>
+              <a href="http://larks.in">
+                Larks
+              </a>
+            </li>
+            <li>
+              <a href="http://larks.in">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="http://blog.creative-tim.com">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="http://www.creative-tim.com/license">
+                Licenses
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright pull-right">
+          &copy; 2017, made with <i class="fa fa-heart heart"></i> by Larks
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
