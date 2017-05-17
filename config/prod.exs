@@ -14,7 +14,7 @@ use Mix.Config
 config :school_diary, SchoolDiary.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [scheme: "https", host: "fast-river-34986.herokuapp.com", port: 433],
-  force_ssl: [rewrite_on: [:x_forwarded_proto],
+  force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/manifest.json"
 
 # Do not print debug messages in production
