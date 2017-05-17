@@ -25,10 +25,8 @@ import $ from "./jquery.min"
 
 $(document).on("turbolinks:load", function() {
 
-  console.log("This got called.")
-
-  // Make all forms ajax submit.
-  $("body").on("submit", "form[data-remote='true']", function(e) {
+  // Make forms which have a remote=true as an ajax form
+  $("body").on("submit", "form[remote='true']", function(e) {
     e.preventDefault();
     let $form = $(this);
 
@@ -38,11 +36,15 @@ $(document).on("turbolinks:load", function() {
       data: $form.serialize(),
       dataType: "script",
       beforeSend: function(_jqXHR, _settings) {
-        // add a loader or whatever
+        $form.find("submit").addClass("dissabled")
       },
-      complete: function(_jqXHR,_textStatus) {
-        // remove a loader or whatever
-      }
+      complete: function(_jqXHR, _textStatus) {
+        $form.find("submit").removeClass("dissabled")
+      },
+    })
+    .done(function( data ) {
+      console.log(data)
     });
+
   });
 });

@@ -16,6 +16,7 @@ defmodule SchoolDiary.Router do
   scope "/", SchoolDiary do
     pipe_through :browser # Use the default browser stack
     get "/", PageController, :index
+    post "/contact_request", PageController, :contact_request
     get "/login", SessionsController, :index, as: :login
   end
 

@@ -17,6 +17,6 @@ defmodule SchoolDiary.Contact do
     |> cast(params, [:name, :email, :message])
     |> validate_required([:name, :email, :message])
     |> validate_format(:email, ~r/@/)
-    |> validate_format(:name, ~r/a-z/)
+    |> validate_format(:name, ~r/[a-z]/)
   end
 end
