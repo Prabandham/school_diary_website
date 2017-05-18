@@ -35,7 +35,7 @@ defmodule SchoolDiary.PageController do
     case is_nil(found) do
       true ->
         conn
-        |> put_flash(:error, "No Such account exists !!")
+        |> put_flash(:error, "We do not have any school registered with code <b>" <> code <> "</b> Please make sure you are spelling the code correctly.")
         |> redirect(to: "/login")
       false ->
         found_account = "http://" <> code <> ".schooldiary.com"
