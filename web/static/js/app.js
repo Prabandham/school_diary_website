@@ -34,17 +34,16 @@ $(document).on("turbolinks:load", function() {
       method: $form.attr("method"),
       url: $form.attr("action"),
       data: $form.serialize(),
-      dataType: "script",
-      beforeSend: function(_jqXHR, _settings) {
-        $form.find("submit").addClass("dissabled")
-      },
-      complete: function(_jqXHR, _textStatus) {
-        $form.find("submit").removeClass("dissabled")
-      },
+      dataType: "json",
     })
-    .done(function( data ) {
-      console.log(data)
+    .done(function(data) {
+      if(data.status == "success")  {
+        let flash = $("<div class='alert alert-success text-center'>" + data.message + "</div>")
+        $form.html(flash)
+      } else {
+        let flash = $("<div class='alert alert-danger text-center'>" + data.message + "</div>")
+        $form.prepend(flash)
+      }
     });
-
   });
 });

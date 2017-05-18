@@ -11,13 +11,13 @@ defmodule SchoolDiary.PageController do
   def contact_request(conn, %{"contact" => contact_params}) do
     contact = Contact.changeset(%Contact{}, contact_params)
     case Repo.insert(contact) do
-      {:ok, _contact} ->
+      {:ok, contact} ->
         conn 
-        |> json(%{status: "success", message: "Thank you, we will get in touch with you shortly !!"})
+        |> json(%{status: "success", message: "Thank you " <> contact.name <> ", we have got your mail and will get in touch with you shortly !!"})
       {:error, contact} ->
         IO.inspect contact
         conn 
-        |> render("index.html", contact_changeset: contact)
+        |> json(%{status: "error", message: "Some thing was not filled correctly. Please try again."})
     end
   end
 end
