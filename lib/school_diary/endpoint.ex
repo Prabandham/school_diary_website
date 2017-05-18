@@ -38,5 +38,6 @@ defmodule SchoolDiary.Endpoint do
     key: "_school_diary_key",
     signing_salt: "Fa2aBM+I"
 
+  plug SchoolDiary.Plug.Subdomain, SchoolDiary.SubdomainRouter
   plug SchoolDiary.Router
 end

@@ -11,7 +11,7 @@ config :school_diary,
 
 # Configures the endpoint
 config :school_diary, SchoolDiary.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "schooldiary.com"],
   secret_key_base: "VhpIPz/j6WT9UKYVsDq4wWS3nfXO7egRMJbi9ccdvIMZDzOTMSSqoaYmxBNQ7enn",
   render_errors: [view: SchoolDiary.ErrorView, accepts: ~w(html json)],
   pubsub: [name: SchoolDiary.PubSub,

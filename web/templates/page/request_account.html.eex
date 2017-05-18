@@ -1,0 +1,10 @@
+<div class='container'>
+  <h4 class='text-center'>Please choose the school that you want to login to</h4>
+  <hr />
+  <%= form_for @account_changeset, page_path(@conn, :validate_account_name), [class: 'form-inline'], fn f -> %>
+    <div class="row text-center">
+      <span>
+        <%= text_input f, :code, [class: 'form-control', placeholder: "School Code"] %> .schooldiary.com
+      </span>
+  <% end %>
+</div>
