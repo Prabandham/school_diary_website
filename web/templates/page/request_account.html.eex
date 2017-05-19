@@ -1,8 +1,7 @@
 <div class="container signup-page">
   <div class='wrapper'>
     <div class="card-signup">
-      <h4 class='text-center text-primary'>Please choose the school that you want to login to</h4>
-      <hr />
+      <h2 class='text-center text-primary'>Enter Your SchoolDiary Subdomain</h2>
       <%= form_for @account_changeset, page_path(@conn, :validate_account_name), [class: 'form-inline'], fn f -> %>
         <div class="row text-center">
           <span class='form-group'>

@@ -1,1 +1,8 @@
-This is the login page.
+<div class='container'>
+    <div class='warpper'>
+        <div class='text-center'>
+            <img src="<%= logo(@conn.private[:subdomain]) %>" />
+        </div>
+        <!-- From for login will come here -->
+    </div>
+</div>

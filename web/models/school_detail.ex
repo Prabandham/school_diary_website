@@ -8,7 +8,7 @@ defmodule SchoolDiary.SchoolDetail do
     field :contact_number_1, :string
     field :contact_number_2, :string
     field :contact_email, :string
-    field :primary_color, :string
+    field :primary_color, :string, default: "#00000"
     field :licence_start_date, Ecto.Date
     field :licence_end_date, Ecto.Date
     field :licence_type, :string
@@ -23,7 +23,7 @@ defmodule SchoolDiary.SchoolDetail do
   def changeset(struct, params \\ %{}) do
     struct
     |> cast(params, [:name, :code, :address, :contact_number_1, :contact_number_2, :contact_email, :primary_color, :licence_start_date, :licence_end_date, :licence_type, :licence_attributes])
-    |> validate_required([:name, :code, :address, :contact_number_1, :contact_number_2, :contact_email, :primary_color, :licence_start_date, :licence_end_date, :licence_type, :licence_attributes])
+    |> validate_required([:name, :code, :address, :contact_number_1, :contact_email, :licence_start_date, :licence_end_date, :licence_type])
   end
 
   def validate_account_chagenset(struct, params \\ %{}) do

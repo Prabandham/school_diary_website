@@ -31,7 +31,6 @@ defmodule SchoolDiary.PageController do
     code = account_params["code"] 
     query = from s in SchoolDetail, where: s.code == ^code
     found = Repo.one(query)
-    IO.inspect found
     case is_nil(found) do
       true ->
         conn

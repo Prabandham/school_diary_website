@@ -11,6 +11,7 @@ defmodule SchoolDiary.Plug.Subdomain do
         conn
         |> put_private(:subdomain, subdomain)
         |> router.call(router.init{})
+        |> halt
       _ -> conn
     end
   end
