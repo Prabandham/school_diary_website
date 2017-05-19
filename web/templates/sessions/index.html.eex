@@ -3,6 +3,7 @@
         <div class='text-center'>
             <img src="<%= logo(@conn.private[:subdomain]) %>" />
         </div>
+        <hr />
         <!-- From for login will come here -->
     </div>
 </div>
